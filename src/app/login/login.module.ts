@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { GodzillaVskongPageRoutingModule } from './godzilla-vskong-routing.module';
+import { LoginPageRoutingModule } from './login-routing.module';
 
-import { GodzillaVskongPage } from './godzilla-vskong.page';
+import { LoginPage } from './login.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    GodzillaVskongPageRoutingModule
+    LoginPageRoutingModule
   ],
-  declarations: [GodzillaVskongPage]
+  declarations: [LoginPage]
 })
-export class GodzillaVskongPageModule {}
+export class LoginPageModule {}
